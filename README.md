@@ -17,15 +17,15 @@ DNSecLab is a self-built cybersecurity laboratory focused on learning **DNS from
 
 Unlike traditional DNS tutorials, this project demonstrates:
 
-- 🔹 How DNS actually works
-- 🔹 Recursive vs Authoritative DNS
-- 🔹 Zone Files
-- 🔹 DNS Record Types
-- 🔹 DNS Resolution Process
-- 🔹 DNS Security Concepts
-- 🔹 Common DNS Misconfigurations
-- 🔹 Real-world DNS Pentesting Techniques
-- 🔹 Defensive Mitigations
+🔹 How DNS actually works
+🔹 Recursive vs Authoritative DNS
+🔹 Zone Files
+🔹 DNS Record Types
+🔹 DNS Resolution Process
+🔹 DNS Security Concepts
+🔹 Common DNS Misconfigurations
+🔹 Real-world DNS Pentesting Techniques
+🔹 Defensive Mitigations
 
 The goal is to build a strong understanding of DNS while safely demonstrating common attack techniques inside an isolated lab environment.
 
