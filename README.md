@@ -6,8 +6,19 @@
 A practical cybersecurity lab designed to understand how DNS works, how attackers abuse it, and how defenders can detect and mitigate DNS-based attacks.
 </p>
 
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu) ![Bind9](https://img.shields.io/badge/BIND9-DNS_Server-blue?style=for-the-badge) ![Nginx](https://img.shields.io/badge/Nginx-Web_Server-009639?style=for-the-badge&logo=nginx)
+[![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?logo=kalilinux&logoColor=black)](#) [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)](#) [![nginx](https://img.shields.io/badge/nginx-009639?logo=nginx&logoColor=fff)](#) 
+![BIND9](https://img.shields.io/badge/DNS-BIND9-blue) 
+![Pentesting](https://img.shields.io/badge/Focus%20Pentesting-black?logo=owasp&logoColor=red)
+![Pentesting](https://img.shields.io/badge/Red%20Team-black?logo=hackthebox&logoColor=red)
+![Project Status](https://img.shields.io/badge/Project-Active-brightgreen?logo=statuspage&logoColor=white)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&logoColor=white)
+
+
+<!-- ![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu) ![Bind9](https://img.shields.io/badge/BIND9-DNS_Server-blue?style=for-the-badge) ![Nginx](https://img.shields.io/badge/Nginx-Web_Server-009639?style=for-the-badge&logo=nginx)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-DNS_Pentesting-red?style=for-the-badge) ![Status](https://img.shields.io/badge/Project-Active-success?style=for-the-badge) ![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)
+![Project Status](https://img.shields.io/badge/Project-Active-black)
+![License](https://img.shields.io/badge/License-Apache%202.0-black)
+-->
 
 ---
 
@@ -17,15 +28,8 @@ DNSecLab is a self-built cybersecurity laboratory focused on learning **DNS from
 
 Unlike traditional DNS tutorials, this project demonstrates:
 
-🔹 How DNS actually works. 
-🔹 Recursive vs Authoritative DNS. 
-🔹 Zone Files. 
-🔹 DNS Record Types. 
-🔹 DNS Resolution Process. 
-🔹 DNS Security Concepts. 
-🔹 Common DNS Misconfigurations. 
-🔹 Real-world DNS Pentesting Techniques. 
-🔹 Defensive Mitigations. 
+🔹 How DNS actually works </br>🔹 Recursive vs Authoritative DNS </br>🔹 Zone Files </br>
+🔹 DNS Record Types </br>🔹 DNS Resolution Process </br>🔹 DNS Security Concepts </br>🔹 Common DNS Misconfigurations </br>🔹 Real-world DNS Pentesting Techniques </br>🔹 Defensive Mitigations. 
 
 The goal is to build a strong understanding of DNS while safely demonstrating common attack techniques inside an isolated lab environment.
 
