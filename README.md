@@ -235,12 +235,7 @@ Feel free to:
 - Open an Issue
 - Submit a Pull Request
 - Share feedback
-
-## Author
-
----
-
-Incogn1mu5
+</br>  
 
 ## License
 
@@ -248,6 +243,9 @@ This project is licensed under the Apache License 2.0.
 
 You are welcome to use, study, modify, and redistribute this project in accordance with the license terms. If you create derivative works, please retain the original copyright notice, include the Apache License 2.0, and clearly indicate any modifications.
 
-See the [LICENSE](https://github.com/Incogn1mu5/PwnAD/blob/7091ec910e02949ee20d522bb7605f83cdeae6d0/LICENSE) file for full details.
+See the [LICENSE](https://github.com/Incogn1mu5/PwnAD/blob/7091ec910e02949ee20d522bb7605f83cdeae6d0/LICENSE) file for full details.  
+</br>  
 
-</div>
+## Author
+
+Incogn1mu5
