@@ -1,37 +1,27 @@
-# 🌐 DNSecLab
-
-### *Understanding DNS Internals & DNS Pentesting Through a Hands-On Lab*
-
-<p align="center">
-A practical cybersecurity lab designed to understand how DNS works, how attackers abuse it, and how defenders can detect and mitigate DNS-based attacks.
-</p>
+<img width="1484" height="552" alt="DN53CLab_Banner" src="https://github.com/Incogn1mu5/DN53CLab/blob/main/Inventory/Screenshots/DN53CLab_Banner.png" />
 
 [![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?logo=kalilinux&logoColor=black)](https://www.kali.org/get-kali/#kali-virtual-machines) [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/download/server) [![nginx](https://img.shields.io/badge/nginx-009639?logo=nginx&logoColor=fff)](https://nginx.org/en/download.html) 
-![BIND9](https://img.shields.io/badge/DNS-BIND9-blue?logo=) 
+<a href="https://www.isc.org/bind/"><img src="https://github.com/Incogn1mu5/DN53CLab/blob/main/Inventory/Screenshots/bind9logo.png" height="20" alt="Bind9"></a>
 ![Pentesting](https://img.shields.io/badge/Focus%20Pentesting-black?logo=owasp&logoColor=red)
 ![Pentesting](https://img.shields.io/badge/Red%20Team-black?logo=hackthebox&logoColor=red)
 ![Project Status](https://img.shields.io/badge/Project-Active-brightgreen?logo=statuspage&logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&logoColor=white)
-<a href="https://www.isc.org/bind/">
-  <img src="https://github.com/homarr-labs/dashboard-icons/blob/main/png/isc-bind9.png" height="20" alt="Bind9">
-</a>
+
 
 <!-- ![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu) ![Bind9](https://img.shields.io/badge/BIND9-DNS_Server-blue?style=for-the-badge) ![Nginx](https://img.shields.io/badge/Nginx-Web_Server-009639?style=for-the-badge&logo=nginx)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-DNS_Pentesting-red?style=for-the-badge) ![Status](https://img.shields.io/badge/Project-Active-success?style=for-the-badge) ![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)
 ![Project Status](https://img.shields.io/badge/Project-Active-black)
 ![License](https://img.shields.io/badge/License-Apache%202.0-black)
 -->
-
 ---
+# 🌐 DN53CLab
+A vulnerable DNS environment designed to understand how DNS works, how attackers abuse it and how defenders can detect & mitigate DNS-based attacks. Yes, that's a "53" in there — DN**53**CLab, pronounced "DNSecLab", because Port 53 is where all the fun happens.
 
-# 📖 About
-
-DNSecLab is a self-built cybersecurity laboratory focused on learning **DNS from both the administrator's and attacker's perspective**.
+DN53CLab is a self-built cybersecurity laboratory focused on learning **DNS from both the administrator's and attacker's perspective**.
 
 Unlike traditional DNS tutorials, this project demonstrates:
 
-🔹 How DNS actually works </br>🔹 Recursive vs Authoritative DNS </br>🔹 Zone Files </br>
-🔹 DNS Record Types </br>🔹 DNS Resolution Process </br>🔹 DNS Security Concepts </br>🔹 Common DNS Misconfigurations </br>🔹 Real-world DNS Pentesting Techniques </br>🔹 Defensive Mitigations. 
+🔹 How DNS actually works </br>🔹 Recursive vs Authoritative DNS </br>🔹 Zone Files </br>🔹 DNS Record Types </br>🔹 DNS Resolution Process </br>🔹 DNS Security Concepts </br>🔹 How DNS is Configured </br>🔹 Common DNS Misconfigurations </br>🔹 Real-world DNS Pentesting Techniques </br>🔹 Defensive Mitigations. 
 
 The goal is to build a strong understanding of DNS while safely demonstrating common attack techniques inside an isolated lab environment.
 
@@ -106,16 +96,14 @@ The goal is to build a strong understanding of DNS while safely demonstrating co
 
 # 🛠️ Technologies Used
 
-| Component | Technology |
-| --- | --- |
-| DNS Server | BIND9 |
-| Web Server | Nginx |
-| Operating System | Ubuntu Server |
-| Virtualization | VMware Workstation |
-| Attacker Machine | Kali Linux |
-| Packet Analysis | Wireshark |
-| Enumeration | dig, nslookup, host |
-| Pentesting | Nmap |
+| Component | Technology 
+| --- | --- 
+| DNS Server | BIND9 
+| Web Server | Nginx 
+| Operating System | Ubuntu Server 
+| Virtualization | VMware Workstation 
+| Attacker Machine | Kali Linux 
+| Victim Machine | Windows 10
 </br>  
 
 # 🔥 DNS Pentesting Modules
@@ -124,7 +112,6 @@ The goal is to build a strong understanding of DNS while safely demonstrating co
 
 - DNS Enumeration
 - Subdomain Enumeration
-- Reverse Lookup
 - Record Enumeration
 </br>
 
@@ -158,36 +145,35 @@ The goal is to build a strong understanding of DNS while safely demonstrating co
 # 📂 Project Structure
 
 ```
-DNSecLab/
+DN53CLab/
 
 ├── Documentation/
 │    ├── DNS Fundamentals
 │    ├── DNS Attacks 
 │    └── Configuration/
 │        ├── Network Configuration
-│        ├── DNS Resolver Configuration
-│        │   ├── Multiple Bind9 Instance Configuration
-│        │   └── Static IP Configuration
-│        ├── Authoritative Server Configuration
-│        │   └── Static IP Configuration
-│        ├── Webserver Configuration
-│        │   └── Static IP Configuration
-│        ├── Victim Machine Configuration
-│        │   └── Static IP Configuration
-│        ├── Attacker Machine Configuration
-│        │   └── Static IP Configuration
+│        ├── DNS Resolver/
+│        │   ├── Open DNS Resolver Configuration
+│        │   └── Multiple Bind9 Instance Configuration
+│        ├── Authoritative Server/
+│        │   └── Authoritative Server Configuration
+│        ├── Webserver/
+│        │   └── Webserver Configuration
+│        ├── Victim_Machine/
+│        │   └── Windows 10 Configuration
+│        ├── Attacker_Machine/
+│        │   └── Kali Linux Configuration
 │        └── Malicious Server Configuration
 │
 ├── Inventory/
 │    ├── Diagrams
-│    ├── Screenshots
+│    └── Screenshots
 │
 ├── Report/
 │    ├── DNS Reconnaisance & Enumeration
 │    ├── DNS Zone Transfer
 │    ├── DNS Amplification Attack
 │    ├── Dynamic DNS Update (DDNS)
-│    
 │    ├── DNS Hijacking
 │    └── Mitigations
 │
@@ -245,7 +231,7 @@ This project is licensed under the Apache License 2.0.
 
 You are welcome to use, study, modify, and redistribute this project in accordance with the license terms. If you create derivative works, please retain the original copyright notice, include the Apache License 2.0, and clearly indicate any modifications.
 
-See the [LICENSE](https://github.com/Incogn1mu5/PwnAD/blob/7091ec910e02949ee20d522bb7605f83cdeae6d0/LICENSE) file for full details.  
+See the [LICENSE](https://github.com/Incogn1mu5/DN53CLab/blob/main/LICENSE) file for full details.  
 </br>  
 
 ## Author
