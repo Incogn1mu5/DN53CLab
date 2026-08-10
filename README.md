@@ -6,13 +6,15 @@
 A practical cybersecurity lab designed to understand how DNS works, how attackers abuse it, and how defenders can detect and mitigate DNS-based attacks.
 </p>
 
-[![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?logo=kalilinux&logoColor=black)](#) [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)](#) [![nginx](https://img.shields.io/badge/nginx-009639?logo=nginx&logoColor=fff)](#) 
-![BIND9](https://img.shields.io/badge/DNS-BIND9-blue) 
+[![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?logo=kalilinux&logoColor=black)](https://www.kali.org/get-kali/#kali-virtual-machines) [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/download/server) [![nginx](https://img.shields.io/badge/nginx-009639?logo=nginx&logoColor=fff)](https://nginx.org/en/download.html) 
+![BIND9](https://img.shields.io/badge/DNS-BIND9-blue?logo=) 
 ![Pentesting](https://img.shields.io/badge/Focus%20Pentesting-black?logo=owasp&logoColor=red)
 ![Pentesting](https://img.shields.io/badge/Red%20Team-black?logo=hackthebox&logoColor=red)
 ![Project Status](https://img.shields.io/badge/Project-Active-brightgreen?logo=statuspage&logoColor=white)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&logoColor=white)
-
+<a href="https://www.isc.org/bind/">
+  <img src="https://github.com/homarr-labs/dashboard-icons/blob/main/png/isc-bind9.png" height="20" alt="Bind9">
+</a>
 
 <!-- ![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu) ![Bind9](https://img.shields.io/badge/BIND9-DNS_Server-blue?style=for-the-badge) ![Nginx](https://img.shields.io/badge/Nginx-Web_Server-009639?style=for-the-badge&logo=nginx)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-DNS_Pentesting-red?style=for-the-badge) ![Status](https://img.shields.io/badge/Project-Active-success?style=for-the-badge) ![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge)
