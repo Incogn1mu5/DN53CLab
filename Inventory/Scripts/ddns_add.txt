@@ -1,0 +1,6 @@
+cat > ddns_add.txt <<EOF
+server 192.168.34.133
+zone dnspentest.lab.
+update add malware.dnspentest.lab 60 A 192.168.34.129
+send
+EOF
